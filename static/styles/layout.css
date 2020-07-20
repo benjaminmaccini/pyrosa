@@ -1,0 +1,20 @@
+.split,
+.gutter.gutter-horizontal {
+  float: left;
+}
+.gutter.gutter-horizontal {
+  cursor: ew-resize;
+}
+
+#client_input {
+  position: absolute;
+  bottom: 10px;
+}
+
+body.dark {
+  --bg-color: #353941;
+  --bg-secondary-color: #26282b;
+  --font-color: #f5f5f5;
+  --color-grey: #ccc;
+  --color-darkGrey: #777;
+}

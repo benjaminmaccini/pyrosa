@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+    <title>Subrosa</title>
+  </head>
+  <body>
+    <div class="split" id="chat">
+      Welcome to the Subrosa chat!
+      <input type="text" id="client_input" placeholder="Send a message..." />
+    </div>
+    <div class="split" id="wiki"></div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='dist/main.bundle.js') }}"
+    ></script>
+  </body>
+</html>
